@@ -1,0 +1,8 @@
+command /glow:
+    permission: group.wonder
+    permission message: &a&lWONDERBUILD &8• &cDazu hast du keine Rechte!
+    trigger:
+        set glowing of player to true
+        send ""
+        send "&a&lWONDERBUILD &8• &7Dein Glow wurde &aaktiviert&7!"
+        send ""
